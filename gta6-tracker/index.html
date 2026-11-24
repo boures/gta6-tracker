@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GTA VI Port Tracker — запускается ли GTA VI на ПК?</title>
+<meta name="description" content="Мониторинг портирования GTA VI на ПК: прогресс, проекты, новости, методология.">
+<meta name="theme-color" content="#0b0d12"><link rel="stylesheet" href="assets/style.css">
+</head><body>
+<header class="top"><div class="wrap"><a class="logo" href="#top">GTA VI <b>PORT TRACKER</b></a>
+<nav id="nav"></nav></div></header>
+<div id="demo" class="demo" hidden>⚠ Демонстрационные данные. Реальные сведения будут добавлены владельцем сайта.</div>
+<main id="top"><div class="wrap">
+<div class="hero"><div><h1 id="h1">Загрузка…</h1><p class="lead" id="sub"></p>
+<div class="cd" id="cd"><div><b id="cd-d">--</b><span>дней</span></div><div><b id="cd-h">--</b><span>часов</span></div><div><b id="cd-m">--</b><span>минут</span></div><div><b id="cd-s">--</b><span>секунд</span></div></div>
+<div class="cdl" id="cdl"></div></div>
+<div class="ring" id="ring" style="--p:0"><div><b id="ov">0%</b><small>общий прогресс</small></div></div></div>
+<div class="tiles" id="tiles"></div></div>
+<section id="race" data-s="race"><div class="wrap"><span class="kick">Гонка</span><h2>Сравнение проектов</h2>
+<p class="sub">Проекты ранжируются по близости к запуску игры. Оценки основаны на публичных данных (README, коммиты, issues); самостоятельные заявления помечаются отдельно.</p>
+<div class="card chart" id="chart"></div><br>
+<div class="ctl"><select id="flt"><option value="all">Все проекты</option><option value="gta6">Только GTA VI</option><option value="layer">Слои для любых игр</option></select>
+<select id="srt"><option value="progress">По прогрессу</option><option value="rating">По рейтингу</option><option value="stars">По звёздам</option><option value="updated">По активности</option></select></div>
+<div class="tw"><table><thead><tr><th>#</th><th>Проект</th><th>Прогресс</th><th>Статус</th><th>Рейтинг</th><th>★</th><th>Обновлён</th></tr></thead><tbody id="tb"></tbody></table></div></div></section>
+<section id="news" data-s="news"><div class="wrap"><span class="kick">Что происходит</span><h2>Новости и обновления</h2><p class="sub">Краткие сводки своими словами со ссылками на первоисточники.</p><div class="grid" id="newsg"></div></div></section>
+<section id="watchlist" data-s="watchlist"><div class="wrap"><span class="kick">Ранние или замороженные</span><h2>Watchlist</h2><p class="sub">Проекты, за которыми ведётся наблюдение. В гонку попадают, когда выдают измеримый результат.</p><div class="grid" id="wl"></div></div></section>
+<section id="toolkit" data-s="toolkit"><div class="wrap"><span class="kick">Инструменты</span><h2>Технические инструменты</h2><p class="sub">Сами по себе игру не запускают, но на них опираются порты: просмотрщики архивов, кодеки текстур, описания форматов.</p><div class="grid" id="tk"></div></div></section>
+<section id="method" data-s="method"><div class="wrap"><span class="kick">Методология</span><h2>Как считается прогресс</h2>
+<div class="card"><p>Единая шкала для всех проектов. <b>Подготовка</b> (инфраструктура, которую можно сделать до появления исполняемого файла) даёт первые 25%. Далее проект продвигается только за счёт реальных вех в самой игре: запуск, меню, загрузка мира, управление.</p>
+<p>Для вех после «в игре» последние 30 пунктов делятся между частотой кадров (средний FPS ÷ 30) и стабильностью. Частичные вехи (например, меню отображается, но с ошибками) засчитываются наполовину.</p>
+<p>Считаете оценку неверной? Пришлите ссылку на подтверждение владельцу сайта.</p></div></div></section>
+<section id="safety" data-s="safety"><div class="wrap"><div class="card warn"><h2>Скачивать нечего</h2><p>Ни один проект на этой странице не распространяет игру, ключи или исполняемые файлы, и сайт не даёт на них ссылок. Любое «готовое GTA VI для ПК» — мошенничество.</p></div></div></section>
+</main>
+<footer><div class="wrap">Фан-проект. Не связан с Rockstar Games, Take-Two или Microsoft. Все торговые марки принадлежат их владельцам. Игровые файлы, ключи и исполняемые файлы здесь не размещаются.<br>Данные обновлены: <span id="upd">—</span></div></footer>
+<script src="config.js"></script><script src="assets/app.js"></script>
+</body></html>

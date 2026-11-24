@@ -1,0 +1,27 @@
+{
+  "meta": { "demo": true, "updated": "2026-11-24" },
+  "stats": {
+    "headline": "Запускается ли GTA VI на ПК?",
+    "subline": "Пока нет. Все серьёзные попытки портирования — на одной шкале прогресса.",
+    "overall": 12,
+    "furthest": "Демо: инициализация",
+    "boot": "Нет",
+    "countdownLabel": "До контрольной даты (демо)",
+    "countdownTarget": "2027-01-01T00:00:00Z"
+  },
+  "sections": { "race": true, "news": true, "watchlist": true, "toolkit": true, "method": true, "safety": true },
+  "projects": [
+    { "id": "p1", "name": "Демо-проект Альфа", "developer": "Команда А (демо)", "progress": 24, "status": "active", "category": "gta6", "description": "Демонстрационная запись. Замените реальными данными в админ-панели.", "updated": "2026-11-20", "url": "", "stars": 1200, "rating": 6.5 },
+    { "id": "p2", "name": "Демо-проект Бета", "developer": "Разработчик Б (демо)", "progress": 15, "status": "active", "category": "gta6", "description": "Демонстрационная запись.", "updated": "2026-11-12", "url": "", "stars": 640, "rating": 5.1 },
+    { "id": "p3", "name": "Демо-проект Гамма", "developer": "Команда Г (демо)", "progress": 8, "status": "stalled", "category": "layer", "description": "Демонстрационная запись: универсальный слой для любых игр.", "updated": "2026-09-30", "url": "", "stars": 310, "rating": 3.4 }
+  ],
+  "news": [
+    { "id": "n1", "title": "Демо-новость: сайт запущен", "summary": "Это пример новости. Создайте настоящую в разделе «Новости» админ-панели.", "date": "2026-11-24", "url": "", "media": "", "status": "published" }
+  ],
+  "watchlist": [
+    { "id": "w1", "name": "Демо-исследование", "status": "early", "description": "Ранний прототип, измеримых результатов пока нет.", "comment": "Наблюдаем.", "url": "" }
+  ],
+  "toolkit": [
+    { "id": "t1", "name": "Демо-инструмент", "description": "Пример записи для раздела технических инструментов.", "url": "" }
+  ]
+}
